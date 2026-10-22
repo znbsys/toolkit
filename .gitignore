@@ -1,0 +1,616 @@
+# ============================================================
+# Universal .gitignore — suitable for frontend & backend projects
+# Usage: remove sections irrelevant to your project, or keep all
+# ============================================================
+
+# ------------------------------------------------------------
+# 1. Operating Systems
+# ------------------------------------------------------------
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.volumeinfo.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.stackdump
+[Dd]esktop.ini
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.sys
+*.tmp
+*.temp
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ------------------------------------------------------------
+# 2. Editors / IDEs
+# ------------------------------------------------------------
+
+# JetBrains family (IntelliJ IDEA, WebStorm, PyCharm, GoLand, CLion, Rider, PhpStorm...)
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+.idea_modules/
+
+# VS Code (uncomment the next line if you want to keep .vscode/launch.json)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+*.code-workspace
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+.springBeans
+.springBeans.xml
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+nbactions.xml
+nb-configuration.xml
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Vim / Neovim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+Session.vim
+Sessionx.vim
+.netrwhist
+tags
+.tags
+*.un~
+
+# Emacs
+*~
+\#*\#
+/.emacs.d/auto-save-list
+/auto-save-list
+tramp
+.\#*
+
+# Xcode
+build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+timeline.xctimeline
+playground.xcworkspace
+
+# Atom
+.idea/
+.git/
+.atom/
+build/
+*.log
+
+# Huawei DevEco Studio
+.cxx/
+*.har
+/local.properties
+
+# ------------------------------------------------------------
+# 3. General Languages / Build Artifacts
+# ------------------------------------------------------------
+
+# Compiled output
+*.o
+*.obj
+*.lo
+*.slo
+*.la
+*.lai
+*.so
+*.so.*
+*.dylib
+*.dll
+*.a
+*.lib
+*.out
+*.exe
+*.elf
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.whl
+*.egg
+*.egg-info/
+*.egg
+develop-eggs/
+dist/
+build/
+ Builds/
+Release/
+Debug/
+debug/
+release/
+target/
+out/
+bin/
+obj/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+_deps/
+
+# Dependency directories
+node_modules/
+bower_components/
+jspm_packages/
+.pnpm-store/
+.yarn/
+.pnp.*
+.turbo/
+.svelte-kit/
+.angular/
+.next/
+.nuxt/
+.vuepress/dist/
+.gatsby/
+public/.cache/
+.parcel-cache/
+.cache/
+rollup.cache/
+.vite/
+.eslintcache
+.stylelintcache
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.venv/
+venv/
+env/
+ENV/
+.env/
+.pyenv/
+.pipenv/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+.hypothesis/
+.pyre/
+.pytype/
+cython_debug/
+*.pid
+
+# Java / JVM
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+replay_pid*
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+target/
+!.mvn/wrapper/maven-wrapper.jar
+**/target/*
+!**/target/*.jar
+!**/target/*.asc
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+out/
+.kotlin/
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+vendor/
+go.work
+go.work.sum
+
+# Rust
+target/
+**/*.rs.bk
+*.pdb
+
+# .NET / C#
+bin/
+obj/
+[Bb]uild[Ll]og.*
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+*.VisualState.xml
+*.vs.scc
+.vs/
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+_TeamCity*
+*.dotCover
+.axoCover/*
+!.axoCover/settings.json
+Coverage*.xml
+*.ncrunch*
+_NCrunch_*
+.*[Nn]Crunch[Oo]uts*
+*.mm.*
+AutoTest.Net/
+
+# PHP
+/vendor/
+composer.phar
+.phpunit.result.cache
+.php-cs-fixer.cache
+.phpunit.cache/
+
+# Ruby
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/spec/examples.txt
+/test/tmp/
+/test/version_tmp/
+/tmp/
+/.bundle/
+/vendor/bundle
+/lib/bundler/man/
+.rvmrc
+.rbenv-version
+.rbenv-gemsets
+.rbenv-version
+.rbenv-gemset
+
+# Swift / iOS
+DerivedData/
+*.ipa
+*.dSYM.zip
+*.dSYM
+.swiftpm/
+Packages/
+Package.pins
+Package.resolved
+*.moved-aside
+
+# Kotlin / Android
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+.gradle/
+local.properties
+*.iml
+.android/
+build/
+app/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+pubspec.lock  # commit this for apps, ignore for packages (choose per project)
+*.g.dart
+*.freezed.dart
+
+# ------------------------------------------------------------
+# 4. Frontend / Node.js
+# ------------------------------------------------------------
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.pid
+*.seed
+*.pid.lock
+.npm
+.yarn-integrity
+.node_repl_history
+
+# Build output
+/dist/
+/build/
+/out/
+/.next/
+/.nuxt/
+/.output/
+/.svelte-kit/
+/.turbo/
+/.parcel-cache/
+/.cache/
+/.vite/
+/.storybook-out/
+
+# Type declaration artifacts
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Local environment variables (keep .env.example)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# Testing & coverage
+coverage/
+.nyc_output/
+jest-coverage/
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+jest_html_reporters/
+htmlcov/
+
+# Monorepo / tooling caches
+.pnpm-debug.log*
+.turbo/
+.eslintcache
+.stylelintcache
+
+# Generated source maps
+*.map
+!**/*.min.css.map   # keep source maps if needed, remove this line otherwise
+
+# ------------------------------------------------------------
+# 5. Backend / Server / Containers
+# ------------------------------------------------------------
+
+# Java Spring
+*.log
+application-local.yml
+application-local.properties
+application-local.yaml
+
+# Temp files & backups
+*.bak
+*.backup
+*.orig
+*.rej
+*.swp
+*.swo
+
+# Archives
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.rar
+*.7z
+*.gz
+
+# Uploads / user data
+uploads/
+files/
+media/
+user_uploads/
+static/uploads/
+
+# Databases
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# ------------------------------------------------------------
+# 6. Configuration & Sensitive Info (keep these!)
+# ------------------------------------------------------------
+
+# Certificates / keys (NEVER commit)
+*.pem
+*.key
+*.crt
+*.csr
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.p8
+*.asc
+*.gpg
+*.pgp
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+secrets.json
+credentials.json
+service-account*.json
+
+# Key scanning fallback
+**/*.pem
+**/*.key
+!example.key
+
+# Local override config
+config.local.*
+settings.local.*
+*.local.json
+*.local.yml
+*.local.yaml
+*.local.js
+*.local.ts
+
+# ------------------------------------------------------------
+# 7. Version Control / Miscellaneous
+# ------------------------------------------------------------
+
+# Git
+*.orig
+*.bak
+*.swp
+*.tmp
+.git/
+gitk*
+*.patch
+*.diff
+
+# SVN / HG / CVS
+.svn/
+.hg/
+.hgignore
+.hgtags
+CVS/
+
+# Log directories
+*.log
+logs/
+
+# API docs generation
+/docs/api/
+/apidoc/
+/site/
+/sphinx-build/
+
+# Local task scripts
+/taskfile.local.yml
+Makefile.local
+
+# Large files / datasets (outside of Git LFS)
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.bin
+*.dat
+*.parquet
+*.feather
+
+# ------------------------------------------------------------
+# 8. Whitelist (place at the end)
+# ------------------------------------------------------------
+
+# Allow committing example files
+!*.example
+!*.sample
+!.env.example
+!docker-compose.override.example.yml
+!mac/en/README.md
+!**/LICENSE
+!**/CHANGELOG.md
+.venv/
+frontend/dist/

@@ -609,7 +609,7 @@ Makefile.local
 !*.sample
 !.env.example
 !docker-compose.override.example.yml
-!mac/en/README.md
+!MacOS/DiskCleanup/en/README.md
 !**/LICENSE
 !**/CHANGELOG.md
 .venv/

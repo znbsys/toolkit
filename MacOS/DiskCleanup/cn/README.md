@@ -153,4 +153,4 @@ bash sys-health-check.sh --help           # 显示帮助
 
 ## Windows 版本
 
-对应 PowerShell 脚本见 [../../windows/cn/](../../windows/cn/)。
+对应 PowerShell 脚本见 [DiskCleanup](../../Windows/DiskCleanup/cn/)。

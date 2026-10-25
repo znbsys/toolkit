@@ -167,4 +167,4 @@ bash sys-health-check.sh --help           # show help
 
 ## Windows version
 
-The matching PowerShell scripts live in [../../windows/en/](../../windows/en/).
+The matching PowerShell scripts live in [DiskCleanup](../../Windows/DiskCleanup/en/).

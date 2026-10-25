@@ -1,20 +1,21 @@
 # toolkit
 
-macOS / Windows 磁盘管理与系统维护脚本集，提供磁盘占用分析、系统健康检查与安全清理能力。所有删除操作均需确认或默认预演，不使用 sudo/admin，绝不触碰个人文件。
-
 ## 目录结构
 
 ```
 toolkit/
-├── mac/
-│   ├── cn/        # macOS 脚本（中文文档）
-│   └── en/        # macOS 脚本（英文文档）
-├── windows/
-│   ├── cn/        # Windows PowerShell 脚本（中文文档）
-│   └── en/        # Windows PowerShell 脚本（英文文档）
+├── Mac/
+│   ├── DiskCleanup/        # Mac磁盘管理与系统维护PowerShell脚本集
+├── Windows/
+│   ├── DiskCleanup/        # Windows磁盘管理与系统维护PowerShell脚本集
+│   └── StayActive/         # Windows保持活跃PowerShell脚本集
 ├── README.md
 └── LICENSE
 ```
+
+---
+
+MacOS / Windows 磁盘管理与系统维护脚本集，提供磁盘占用分析、系统健康检查与安全清理能力。所有删除操作均需确认或默认预演，不使用 sudo/admin，绝不触碰个人文件。
 
 ## 脚本一览
 
@@ -28,7 +29,7 @@ toolkit/
 
 ## 快速开始
 
-**macOS（Bash）**
+**MacOS（Bash）**
 
 ```bash
 bash mac/cn/disk-overview.sh        # 中文脚本
@@ -55,7 +56,10 @@ Set-ExecutionPolicy -Scope Process Bypass   # 如遇执行策略限制先执行
 
 ## 详细文档
 
-- macOS 中文：[mac/cn/README.md](mac/cn/README.md)
-- macOS 英文：[mac/en/README.md](mac/en/README.md)
-- Windows 中文：[windows/cn/README.md](windows/cn/README.md)
-- Windows 英文：[windows/en/README.md](windows/en/README.md)
+- MacOS 中文：[mac/cn/README.md](MacOS/DiskCleanup/cn/README.md)
+- MacOS 英文：[mac/en/README.md](MacOS/DiskCleanup/en/README.md)
+- Windows 中文：[windows/cn/README.md](Windows/DiskCleanup/cn/README.md)
+- Windows 英文：[windows/en/README.md](Windows/DiskCleanup/en/README.md)
+
+---
+
